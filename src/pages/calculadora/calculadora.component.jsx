@@ -38,6 +38,7 @@ export const Calculadora = () => {
 
   const handleClick = (bt) => {
     console.log(bt);
+    console.log(textDisplay);
     setLastButton(bt.value);
 
     if (!isNaN(bt.value)) {
